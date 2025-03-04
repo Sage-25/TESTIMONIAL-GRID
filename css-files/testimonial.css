@@ -2,15 +2,21 @@
   display: flex;
   justify-content: center;
   align-items: start;
+  padding-inline-start: 20rem;
+  padding-inline-end: 20rem;
   gap: 2rem;
 }
 
 .left-container {
-  width: 35%;
+  width: 50%;
+  flex: 3;
 }
 
 .right-container {
-  width: 19.5rem;
+  flex: 1;
+  background-color: hsl(0, 0%, 100%);
+  padding: 3.3rem;
+  border-radius: 0.5rem;
 }
 
 .container-one {
@@ -39,12 +45,6 @@
 
 .jeanette-container {
   background-color: white;
-}
-
-.kira-container {
-  background-color: hsl(0, 0%, 100%);
-  padding: 3.3rem;
-  border-radius: 0.5rem;
 }
 
 .patrick-container {
@@ -138,4 +138,8 @@
 .jeanette-body,
 .kira-body {
   color: hsl(224, 10%, 45%);
+}
+
+.kira-body {
+  margin-bottom: 11.7rem;
 }
