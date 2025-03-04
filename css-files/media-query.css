@@ -27,21 +27,17 @@
 
 @media (min-width: 140px) and (max-width: 1430px) {
   .right-container{
-    width: 90%;
-  }
-}
-
-@media (min-width: 140px) and (max-width: 920px) {
-  .right-container{
-    width: 80%;
+    width: 95%;
+    padding: 2rem;
   }
 }
 
 @media (min-width: 140px) and (max-width: 500px) {
   .right-container{
-    width: 65%;
+    width: 82%;
   }
 }
+
 
 @media (min-width: 140px) and (max-width: 1430px) {
   .container-one {
